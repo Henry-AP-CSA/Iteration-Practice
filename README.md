@@ -1,47 +1,32 @@
-# APCSA: ArrayList
+# Pull Until Rare
+
+**Unit 2: Selection and Iteration | Level 2 Practice | 🤝 AI Co-Pilot**
 
 ## Overview
 
-Overview of the assignment
+Loot boxes and gacha pulls give players a small chance at something rare. In this assignment, you'll find out what a 5% chance actually feels like by simulating a pull machine in Java.
+
+The `PullMachine` class is already built for you (don't edit it). Call its `pullItem()` method, which returns `true` for a rare item and `false` for a common one. In `PullUntilRare.java`, you will:
+
+- **TODO 1:** Pull until you get a rare item and count how many pulls it took.
+- **TODO 2:** Pull exactly 100 times and count how many were rare.
+- **TODO 3:** Run your program at least five times, then answer the reflection questions.
+
+Before you write each loop, decide whether it should be a `while` loop or a `for` loop, and write why in the comment. Choosing the right loop is the real skill here.
+
+**AI Use:** 🤝 AI Co-Pilot. AI can support your thinking, but the code and the reflection are yours. If you use AI, add an attribution statement at the top of your file. If AI gives you code, retype it yourself. Never copy and paste.
 
 ## Getting Started
 
-### Option 1: GitHub Codespaces (Recommended)
-
-1. Click the green **Code** button on this repository
-2. Select the **Codespaces** tab
-3. Click **Create codespace on main**
-4. Wait for the environment to build (~2 minutes the first time)
-5. Start coding in `src/main/java/com/csplusplus/Unit7.java`
-
-> **Note:** If the Java extension shows errors on first load, press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows) and run **"Developer: Reload Window"**. This is a one-time setup step.
-
-### Option 2: Local Development
-
-1. Clone the repository using GitHub Desktop
-2. Open the project in VS Code
-
-## Running Tests
-
-### In VS Code / Codespaces
-
-Click the green play button next to any test method in `Unit7Test.java`, or open the **Testing** sidebar (beaker icon).
-
-## Scoring
-
-Add in how the scoring works
-
-## Important Constraint
-
-When submitting the methods that are provided should be the ones that are functional.
-
-## Common Mistakes
-
-If any that you would like to add
+1. Click **Use this template** at the top of this repository, then choose **Create a new repository**.
+2. Name your repository (for example, `pull-until-rare-yourname`) and click **Create repository**.
+3. In your new repository, click the green **Code** button, open the **Codespaces** tab, and click **Create codespace on main**.
+4. Wait for your codespace to load. Open `PullUntilRare.java` and start with TODO 1.
 
 ## Submission
 
-Talk about how to submit
-
-## Credit
-This repo template was modified from [CS-Plus-Plus] (https://github.com/cs-plus-plus)
+1. **Complete the assignment.** Finish TODO 1 and TODO 2 in `PullUntilRare.java`.
+2. **Test that it works.** Run your program and make sure both parts print results. Run it at least five times to see how the numbers change.
+3. **Complete the reflection.** Answer all of the TODO 3 questions in the comments, using the required vocabulary.
+4. **Save your work to GitHub.** Commit and push your changes from Codespaces so your repository has your finished code.
+5. **Share your link.** Copy the URL of your GitHub repository and submit it on Google Classroom.
